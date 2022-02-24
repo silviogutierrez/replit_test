@@ -1,2 +1,2 @@
 language = "nix"
-run = "nix-shell --command 'yarn && python manage.py runserver 0.0.0.0'"
+run = "nix-shell --command 'yarn && python manage.py migrate && python manage.py runserver 0.0.0.0:8000'"
