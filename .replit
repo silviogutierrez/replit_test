@@ -1,0 +1,2 @@
+language = "nix"
+run = "nix-shell --command 'yarn && python manage.py runserver 0.0.0.0'"
